@@ -1,0 +1,3 @@
+function zamena(){
+	document.getElementById('par').innerHTML=document.getElementById('pervoe').value
+}

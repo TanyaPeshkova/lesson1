@@ -79,5 +79,27 @@ p{
 h2 {
 
 font-size: 300%;
-	text-align :center;	
+	text-align :center;	}
+.container {
+	width:30%;
+	background:linear-gradient(to top,#906bff,#dcd0ff);;
+	margin: auto;
+	padding: 20px;
+
+}
+form input{
+	width:90%;
+} 
+.box{
+	border:2px solid #ff0000;
+	padding:15px;
+	margin:50px;
+}
+*{
+	padding: 0;
+}
+form button {
+	display:block;
+	margin:0 auto;
+	margin-top: 2px;
 }
