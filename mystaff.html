@@ -32,14 +32,32 @@
  </p>
  <div class="container">
  	<form method="GET">
- 		<input type="text" name="query" id='pervoe'>
-</br>
- 		<input type="text" name="a"></br>
+ 		<label for="name">ФИО</label>
+ 		<input type="text" name="query" id='name' placeholder="ФИО">
+</br>  <label for="phone">Телефон</label>
+ 		<input type="tel" name="a" id='phone' placeholder="Телефон"></br> 
+ 		<div>
+ 		<label for="course"> Класс</label></br>
+ 		<select name="course" id="course">
+ 			<option>1</option>
+ 			<option >2</option>
+ 			<option>3</option>
+ 			<option>4</option>
+ 			<option>5</option>
+ 			<option>6</option>
+ 			<option>7</option>
+ 			<option>8</option>
+ 			<option>9</option>
+ 			<option>10</option>
+ 			<option>11</option>
+  		</select></div> </br>
+ 		<label for="about">О себе</label> <textarea rows="5" cols="37" placeholder="О себе" id="about"></textarea>
+
  
- 		<button type="button" onclick='zamena()'>Submit</button>
+ 		<button type="Submit" onclick='zamena()'>Submit</button>
  	</form>
  </div>
  <p id="par">
  </p>
- 
+
  </body>
